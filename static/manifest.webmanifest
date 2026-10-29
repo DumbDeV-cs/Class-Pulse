@@ -1,0 +1,9 @@
+{
+  "name": "Hajiri - Smart Attendance",
+  "short_name": "Hajiri",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f5f7",
+  "theme_color": "#0071e3",
+  "icons": [{ "src": "/static/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}
