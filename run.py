@@ -13,8 +13,16 @@ if __name__ == "__main__":
         from app.seed import seed
         seed()
     app = create_app()
-    print("\n  Attendance system running at http://%s:%d\n" % (args.host, args.port))
-    app.run(host=args.host, port=args.port, threaded=True)
+print("\n  Attendance system running at \033[1;32mhttp://%s:%d\033[0m\n" % (args.host, args.port))
+app.run(host=args.host, port=args.port, threaded=True)
 #gg frigging ez
 #so nbasically i hope that you can see this shjit easily cuz i dont really frigging care 
-#sig
+#sig+
+
+
+
+
+
+
+#NETWORK SO STATIC 
+#IM ELASTIC
